@@ -1,0 +1,1 @@
+# nerd-font-fira-code
