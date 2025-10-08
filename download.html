@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Download FiraCode - Free monospaced font with programming ligatures. Available for Windows, Mac, and Linux.">
+    <meta name="keywords" content="download firacode, firacode download, programming font download, monospaced font">
+    <title>Download FiraCode - Free Programming Font</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">FiraCode</a>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="https://github.com/FiraCodee/FiraCode" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a></li>
+                    <li><a href="download.html" class="btn-download active">Download</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Download FiraCode</h1>
+            <p>Get the latest version of FiraCode for your operating system</p>
+        </div>
+    </section>
+
+    <section class="download-hero">
+        <div class="container">
+            <div class="download-main">
+                <div class="download-icon">
+                    <i class="fas fa-download"></i>
+                </div>
+                <h2>Ready to Enhance Your Coding Experience?</h2>
+                <p>Download FiraCode and start using beautiful programming ligatures in your favorite editor</p>
+                <a href="https://firacode.org/downloads/" target="_blank" rel="noopener noreferrer" class="btn btn-download-large">
+                    <i class="fas fa-download"></i> Download FiraCode Now
+                </a>
+                <p class="download-note">Free & Open Source • Latest Version • All Platforms</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="installation-section">
+        <div class="container">
+            <h2>Installation Instructions</h2>
+            <div class="platform-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="windows">
+                        <i class="fab fa-windows"></i> Windows
+                    </button>
+                    <button class="tab-btn" data-tab="macos">
+                        <i class="fab fa-apple"></i> macOS
+                    </button>
+                    <button class="tab-btn" data-tab="linux">
+                        <i class="fab fa-linux"></i> Linux
+                    </button>
+                </div>
+
+                <div class="tab-content active" id="windows">
+                    <div class="instruction-box">
+                        <h3>Installing on Windows</h3>
+                        <ol>
+                            <li>Download the FiraCode font package from the link above</li>
+                            <li>Extract the ZIP file to a folder</li>
+                            <li>Right-click on each .ttf file and select "Install" or "Install for all users"</li>
+                            <li>Restart your code editor or IDE</li>
+                            <li>Enable FiraCode in your editor's font settings</li>
+                        </ol>
+                        <div class="tip-box">
+                            <i class="fas fa-lightbulb"></i>
+                            <p><strong>Tip:</strong> In VS Code, add <code>"editor.fontFamily": "Fira Code"</code> and <code>"editor.fontLigatures": true</code> to your settings.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="macos">
+                    <div class="instruction-box">
+                        <h3>Installing on macOS</h3>
+                        <ol>
+                            <li>Download the FiraCode font package</li>
+                            <li>Extract the downloaded archive</li>
+                            <li>Double-click on each .ttf file</li>
+                            <li>Click "Install Font" in Font Book</li>
+                            <li>Restart your code editor</li>
+                            <li>Select FiraCode in your editor's preferences</li>
+                        </ol>
+                        <div class="tip-box">
+                            <i class="fas fa-lightbulb"></i>
+                            <p><strong>Alternative:</strong> Use Homebrew: <code>brew tap homebrew/cask-fonts && brew install font-fira-code</code></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="linux">
+                    <div class="instruction-box">
+                        <h3>Installing on Linux</h3>
+                        <div class="linux-methods">
+                            <div class="method">
+                                <h4>Ubuntu/Debian</h4>
+                                <code>sudo apt install fonts-firacode</code>
+                            </div>
+                            <div class="method">
+                                <h4>Arch Linux</h4>
+                                <code>sudo pacman -S ttf-fira-code</code>
+                            </div>
+                            <div class="method">
+                                <h4>Fedora</h4>
+                                <code>sudo dnf install fira-code-fonts</code>
+                            </div>
+                            <div class="method">
+                                <h4>Manual Installation</h4>
+                                <ol>
+                                    <li>Download and extract the font files</li>
+                                    <li>Copy .ttf files to <code>~/.local/share/fonts/</code></li>
+                                    <li>Run <code>fc-cache -f -v</code></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="editor-support">
+        <div class="container">
+            <h2>Editor Configuration</h2>
+            <p class="section-subtitle">Enable ligatures in your favorite code editor</p>
+            <div class="editor-grid">
+                <div class="editor-card">
+                    <h3><i class="fas fa-code"></i> VS Code</h3>
+                    <pre><code>"editor.fontFamily": "Fira Code",
+"editor.fontLigatures": true</code></pre>
+                </div>
+                <div class="editor-card">
+                    <h3><i class="fas fa-code"></i> Sublime Text</h3>
+                    <pre><code>"font_face": "Fira Code",
+"font_options": ["gray_antialias"]</code></pre>
+                </div>
+                <div class="editor-card">
+                    <h3><i class="fas fa-code"></i> Atom</h3>
+                    <pre><code>editor:
+  fontFamily: "Fira Code"
+  fontLigatures: true</code></pre>
+                </div>
+                <div class="editor-card">
+                    <h3><i class="fas fa-code"></i> IntelliJ IDEA</h3>
+                    <pre><code>Settings → Editor → Font
+Font: Fira Code
+Enable ligatures: ✓</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-showcase">
+        <div class="container">
+            <h2>What You'll Get</h2>
+            <div class="showcase-grid">
+                <div class="showcase-item">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <h3>150+ Ligatures</h3>
+                    <p>Comprehensive support for common programming operators and symbols</p>
+                </div>
+                <div class="showcase-item">
+                    <i class="fas fa-font"></i>
+                    <h3>Multiple Weights</h3>
+                    <p>Light, Regular, Medium, SemiBold, and Bold variants</p>
+                </div>
+                <div class="showcase-item">
+                    <i class="fas fa-language"></i>
+                    <h3>Language Support</h3>
+                    <p>Works with all programming languages and file types</p>
+                </div>
+                <div class="showcase-item">
+                    <i class="fas fa-universal-access"></i>
+                    <h3>Open Source</h3>
+                    <p>Free forever with SIL Open Font License</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Need Help?</h2>
+            <p>Check our documentation or reach out to the community</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-large btn-outline">Contact Support</a>
+                <a href="https://github.com/FiraCodee/FiraCode" target="_blank" rel="noopener noreferrer" class="btn btn-large btn-primary">
+                    <i class="fab fa-github"></i> View on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>FiraCode</h3>
+                    <p>Free monospaced font with programming ligatures</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="download.html">Download</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/FiraCodee/FiraCode" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://firacode.org/" target="_blank" rel="noopener noreferrer" title="Official Site"><i class="fas fa-globe"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FiraCode. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
